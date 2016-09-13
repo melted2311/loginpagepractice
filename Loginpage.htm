@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://codifyacademy.com/login/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Login by Codify Academy</title>
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+				<h1>Sign into Codify Academy</h1>
+				<form>
+					<div class="form-group">
+						<label>Username</label>
+						<input type="text" id="username" class="form-control">
+					</div>
+					<div class="form-group">
+						<label>Password</label>
+						<input type="password" id="password" class="form-control">
+					</div>
+
+					<div class="form-group">
+						<!-- runs the function line 18 main.js -->
+						<button type="button" onclick="login()" class="btn btn-primary btn-block">Login</button>
+					</div>
+					     <!-- register button -->
+					<div class="form-group">
+					<button type="button" onclick="register()" class="btn btn-primary btn-block">Register</button>
+					</div>
+				</form>
+
+				<div id="results"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+
+
+</body></html>
